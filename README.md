@@ -2,7 +2,7 @@
 
 This research notebook presents an exploration of Hurst exponent estimation methods and their drawbacks through the lense of a quantitative finance practitioner.
 
-![Hurst-Based Trading Strategy](https://github.com/S-D-Willis/hurst-headaches/blob/30f82ab31da4fa0bc8c0e31840564291448b9ba6/Simple_Hurst_Strat_Results.png)
+![Hurst Estimation](https://github.com/S-D-Willis/hurst-headaches/blob/597f14d80e1766640d6507ee4b93efed1f03c84d/Estimated_Hurst.png)
 
 ## Motivation
 
