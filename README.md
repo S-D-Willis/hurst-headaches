@@ -10,6 +10,8 @@ Market momentum exists despite efficient market hypotheses, but detecting it qui
 
 However, off-the-shelf implementations often fail catastrophically in real market conditions, as demonstrated in the opening case study where a naive Hurst-informed strategy produces significant losses despite clear trending periods.
 
+## Notebook Contents
+
 ### 1. Algorithm Comparison and Analysis
 - **Variance of Differences Method**: Implementation and analysis of lag-sensitivity
 - **Rescaled Range (R/S) Analysis**: Custom implementation with power-of-2 optimization
@@ -29,9 +31,9 @@ However, off-the-shelf implementations often fail catastrophically in real marke
 ## Key Findings
 1. **Estimation Instability**: Standard DFA implementations can produce 70% swings in estimated H over days, making them unsuitable for production trading
 
-2. **Regime Detection Lag**: All methods exhibit significant lag in detecting regime changes, with typical delays of 20-50 data points
+2. **Regime Detection Lag**: All methods exhibit significant lag in detecting regime changes, with delay length contigent upon the number of lags considered
 
-3. **False Signal Problem**: During 2020's trending market, the estimator incorrectly identified mean-reversion periods, leading to missed opportunities
+3. **False Signal Problem**: During 2020's trending market, the estimator incorrectly identified breakout periods, leading to missed opportunities
 
 4. **Optimal Parameters**: 
    - Window size: 100-200 points for daily data
