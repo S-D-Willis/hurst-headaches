@@ -35,10 +35,6 @@ However, off-the-shelf implementations often fail catastrophically in real marke
 
 3. **False Signal Problem**: During 2020's trending market, the estimator incorrectly identified breakout periods, leading to missed opportunities
 
-4. **Optimal Parameters**: 
-   - Window size: 100-200 points for daily data
-   - Lag selection: 25-50 for variance method
-   - Minimum chunk size: 50 for R/S analysis
 
 ## Requirements
 
